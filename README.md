@@ -1,5 +1,5 @@
-# Sample ASP.NET Core application for Azure Pipelines docs
-[![Build Status](https://dev.azure.com/ShwethaL0403/mydevopsapp-pipelin/_apis/build/status/shwethal.pipelines-dotnet-core%20(1)?branchName=azure-pipelines)](https://dev.azure.com/ShwethaL0403/mydevopsapp-pipelin/_build/latest?definitionId=2&branchName=azure-pipelines)
+
+[![Build Status](https://dev.azure.com/ShwethaL0403/mydevopsapp-pipelin/_apis/build/status/shwethal.pipelines-dotnet-core%20(1)?branchName=azure-pipelines)](https://dev.azure.com/ShwethaL0403/mydevopsapp-pipelin/_build/latest?definitionId=2&branchName=azure-pipelines)# Sample ASP.NET Core application for Azure Pipelines docs
 
 For information on how to set up a pipeline for this repository, see [Create your first pipeline](https://docs.microsoft.com/azure/devops/pipelines/get-started-yaml?view=azure-devops).
 For more information on building .NET Core applications, see [.NET Core](https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core?view=azure-devops).
