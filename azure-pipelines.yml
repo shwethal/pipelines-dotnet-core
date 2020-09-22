@@ -19,11 +19,6 @@ steps:
     version: 5.0.x
     performMultiLevelLookup: true
     includePreviewVersions: true # Required for preview versions
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'restore'
-    feedsToUse: 'select'
-    vstsFeed: 'my-vsts-feed' # A series of numbers and letters
 
 - task: DotNetCoreCLI@2
 
@@ -45,8 +40,3 @@ steps:
     ArtifactName: 'drop'
     publishLocation: 'Container'
 
-- task: DotNetCoreCLI@2
-  inputs:
-    command: test
-    projects: '**/*Tests/*.csproj'
-    arguments: '--configuration $(buildConfiguration)'
