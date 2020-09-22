@@ -24,8 +24,3 @@ steps:
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
 
-- task: AzureAppServiceSettings@1
-  inputs:
-    azureSubscription: 'Additional (e40806a9-d00d-4fd7-a2cf-182f217600a9)'
-    appName: 'shwethal2'
-    resourceGroupName: 'new-RG'
